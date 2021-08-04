@@ -1,0 +1,26 @@
+h1 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 200px;
+}
+.piece {
+    border: rgb(255, 255, 255) solid 2px;
+    box-sizing: border-box;
+
+}
+img{
+    max-width: 80%;
+    min-width: 20%;
+    height: auto;
+    display: inline-block;
+}
+figcaption{
+    display: none;
+}

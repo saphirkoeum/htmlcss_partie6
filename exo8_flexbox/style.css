@@ -1,0 +1,45 @@
+h1 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+header{
+  width: auto;
+  height: 50px;
+  background: #57a639;
+}
+nav{
+  background: beige;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+#main{
+  display: flex;
+}
+#leftaside{
+  /*width: 25%;*/
+  flex-grow: 1;
+  height: 200px;
+  background: yellow;
+}
+section{
+  /*width: 100%;*/
+  flex-grow: 5;
+  height: 200px;
+  background: cyan;
+}
+#rightaside{
+  /*width: 25%;*/
+  flex-grow: 1;
+  height: 200px;
+  background: pink;
+}
+footer{
+  background: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
